@@ -1,2 +1,4 @@
 # PROG3-AVAL1
-1° Avaliação de Programação 3 do professor Eyder Rios
+Repositorio referente a primeira avaliação de programação 3
+
+Aluno: Francisco Edson Dos Reis Vasconcelos
