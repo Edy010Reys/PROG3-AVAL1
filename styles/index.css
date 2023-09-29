@@ -1,0 +1,664 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(143, 35, 35);
+    padding: 8px;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#part_one > .welcome {
+    width: 50%;
+    text-align: center;
+}
+
+#part_one > td {
+    width: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+#part_two > td {
+    width: 25%;
+}
+
+#menus {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+#menus td {
+    width: 15%;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 100px;    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    background-color: orangered;
+    font-size: 16px;
+    border: 2px solid rgb(179, 61, 61);
+    border-radius: 20%;
+}
+
+header a:hover {
+    color: yellowgreen;
+}
+
+main h1 {
+    text-align: center;
+}
+
+#main_one {
+    padding: 10px;
+    background-image: url('images/plateia.avif');
+    background-size: cover;
+    color: red;
+}
+
+#part_three > td {
+    width: 33%;
+    height: 400px;
+}
+
+#part_three img {
+    width: 100%;
+    height: 80%;
+}
+
+#albuns ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#albuns {
+    background-image: url('images/caricatura_metallica.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#albuns img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+#albuns #nevermind {
+    background-color: rgb(13, 13, 175);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #in_utero {
+    background-color: rgb(226, 140, 26);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #kill_all {
+    background-color: rgb(160, 67, 67);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #master {
+    background-color: rgb(87, 12, 12);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #help {
+    background-color: rgb(97, 80, 80);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #hard_night {
+    background-color: rgb(39, 21, 21);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #opera {
+    background-color: rgb(134, 109, 109);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #works {
+    background-color: rgb(212, 210, 53);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #road {
+    background-color: rgb(39, 39, 36);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns #razors {
+    background-color: rgb(59, 96, 121);
+    width: 480px;
+    height: 250px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(107, 107, 150);
+}
+
+#albuns h1 {
+    color: white;
+    background-color: thistle;
+    padding-bottom: 7px;
+}
+
+#albuns p {
+    color: white;
+}
+
+#albuns a img {
+    width: 50px;
+    height: 50px;
+    margin: 0px 3px;
+}
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+tbody .avaliations {
+    line-height: 1.3rem;
+}
+
+footer img {
+    width: 220px;
+    height: 220px;
+}
+
+.informations img {
+    width: 50px;
+    height: 50px;
+}
+
+footer .avaliations {
+    text-align: center;
+}
+
+footer #rodape {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    background-color: gray;
+    font-size: 16px;
+    border: 2px solid rgba(179, 61, 61, 0.192);
+    border-radius: 20%;
+}
+
+#rodape:hover {
+    color: yellowgreen;
+}
+
+footer h3, form p {
+    font-size: 20px;
+}
+
+tr form {
+    line-height: 1.6rem;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: yellowgreen;
+    border-radius: 20%;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 4px;
+    }
+    
+    header p {
+        font-size: 13px;
+    }
+    
+    #part_one > .welcome {
+        width: 62%;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #part_one > td {
+        width: 19%;
+    }
+    
+    img {
+        width: 60px;
+        height: 60px;    
+    }
+
+    #menus {
+        width: 100%;
+    }
+
+    #menus .one {
+        width: 30%;
+    }
+
+    #menus td {
+        width: 23%;
+    }
+
+    header a {
+        font-size: 10px;
+    }
+
+    main h1 {
+        font-size: 13px;
+    }
+    
+    #main_one {
+        padding: 5px;
+    }
+    
+    #part_three > td {
+        height: 180px;
+    }
+
+    #albuns > h1 {
+        padding-top: 1%;
+    }
+
+    #albuns img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    #albuns #nevermind {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #in_utero {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #kill_all {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #master {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #help {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #hard_night {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #opera {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #works {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #road {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns #razors {
+        width: 260px;
+        height: 150px;
+        font-size: 11px;
+    }
+    
+    #albuns h1 {
+        padding-bottom: 5px;
+    }
+
+    #albuns a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        padding: 3px;
+        line-height: 1.1rem;
+    }
+    
+    footer table {
+        width: 100%;
+    }
+
+    .informations {
+        width: 20%;
+    }
+
+    footer .informations {
+        width: 30%;
+        font-size: 13px;
+    }
+
+    footer td {
+        width: 20%;   
+    }
+    
+    footer img {
+        width: 60px;
+        height: 80px;
+    }
+    
+    .informations img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    footer #rodape, footer p, form button {
+        font-size: 10px;
+    }
+
+    footer h3, form p {
+        font-size: 14px;
+    }
+
+    form label {
+        margin-right: 3px;
+        font-size: 13.5px;
+    }
+
+    form p {
+        line-height: 0.8rem;
+    }
+}
+  
+@media (min-width: 481px) and (max-width: 1024px) {
+    header {
+        padding: 4px;
+    }
+    
+    header p {
+        font-size: 16px;
+    }
+    
+    #part_one > .welcome {
+        width: 62%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #part_one > td {
+        width: 19%;
+    }
+    
+    img {
+        width: 90px;
+        height: 90px;    
+    }
+
+    #menus {
+        width: 100%;
+    }
+
+    #menus .one {
+        width: 30%;
+    }
+
+    #menus td {
+        width: 23%;
+    }
+
+    header a {
+        font-size: 15px;
+    }
+
+    main h1 {
+        font-size: 18px;
+    }
+    
+    #main_one {
+        padding: 5px;
+    }
+    
+    #part_three > td {
+        height: 200px;
+    }
+
+    #albuns > h1 {
+        padding-top: 1.5px;
+    }
+
+    #albuns img {
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+    
+    #albuns #nevermind {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #in_utero {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #kill_all {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #master {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #help {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #hard_night {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #opera {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #works {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #road {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns #razors {
+        width: 260px;
+        height: 160px;
+        font-size: 12px;
+    }
+    
+    #albuns h1 {
+        padding-bottom: 5px;
+    }
+
+    #albuns a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+    
+    footer table {
+        width: 100%;
+    }
+
+    .informations {
+        width: 20%;
+    }
+
+    .avaliations {
+        width: 40%;
+    }
+
+    footer .informations {
+        width: 30%;
+        font-size: 13px;
+    }
+
+    footer td {
+        width: 20%;   
+    }
+    
+    footer img {
+        width: 180px;
+        height: 150px;
+    }
+    
+    .informations img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    footer #rodape {
+        font-size: 17px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .informations > h3 {
+        font-size: 19px;
+    }
+    
+    form p {
+        font-size: 19px;    
+    }
+
+    form label {
+        margin-right: 3px;
+        font-size: 17px;
+    }
+
+    form button {
+        font-size: 16px;
+    }
+}

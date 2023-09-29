@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+main {
+   background-image: url('images/rock.jpg');
+   background-size: cover;
+   padding: 10px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+#text_who_are {
+    text-align: center;
+    width: 50%;
+}
+
+tbody td {
+    width: 25%;
+}
+
+div {
+    margin: 13%;
+    background-color: red;
+    padding: 13px;
+    border-radius: 10%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 16px;
+    background-color: rgb(39, 12, 12);
+    border: 2px solid black;
+    border-radius: 20%;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 13px;
+    }
+
+    #text_who_are {
+        text-align: center;
+        width: 55%;
+    }
+    
+    tbody td {
+        width: 22%;
+    }
+
+    #text_who_are h2 {
+        font-size: 13px;
+    }
+
+    #text_who_are p {
+        font-size: 10px;
+    }
+    
+    div {
+        margin: 7%;
+        padding: 7px;
+    }
+    
+    a {
+        padding: 0px 3px;
+        font-size: 10px;
+    }
+    
+    img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        margin-top: 10%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    #text_who_are {
+        text-align: center;
+        width: 55%;
+    }
+    
+    tbody td {
+        width: 22%;
+    }
+
+    #text_who_are h2 {
+        font-size: 17px;
+    }
+
+    #text_who_are p {
+        font-size: 16px;
+    }
+    
+    div {
+        margin: 7%;
+        padding: 7px;
+    }
+    
+    a {
+        padding: 0px 3px;
+        font-size: 16px;
+    }
+    
+    img {
+        width: 100%;
+        height: 250px;
+    }
+}

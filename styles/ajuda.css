@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+main {
+    margin-top: 8%;
+    background-image: url('images/tema_ajuda.png');
+    background-size: cover;
+    padding: 2px;
+}
+
+main p, main section {
+    margin-top: 1%;
+}
+
+p {
+    text-indent: 25px;
+    font-size: 18px; 
+    text-align: justify; 
+}
+
+li {
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+h1, section > h2, footer {
+    text-align: center;
+}
+
+footer {
+    margin-top: 1%;
+}
+
+#back {
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    background-color: gray;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 20%;
+}
+
+#back:hover {
+    color: yellowgreen;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-top: 8%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    main {
+        padding: 2px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 14px;
+        text-indent: 25px;
+        text-align: justify;
+        padding: 3px;
+    }
+    
+    li {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.1rem;
+    }
+    
+    section > h2 {
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    #back {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        margin-top: 10%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    main {
+        padding: 2px;
+    }
+
+    main section {
+        margin: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 25px;
+        text-indent: 25px;
+        text-align: justify;
+        padding: 6px;
+    }
+    
+    li {
+        font-size: 25px;
+        text-align: justify;
+    }
+    
+    section > h2 {
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    #back {
+        font-size: 23px;
+    }
+}
