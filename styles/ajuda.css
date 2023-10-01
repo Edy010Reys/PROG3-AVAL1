@@ -51,7 +51,6 @@ footer {
 
 @media (max-width: 480px) {
     body {
-        margin-top: 8%;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -97,7 +96,6 @@ footer {
 
 @media (min-width: 481px) and (max-width: 1024px) {
     body {
-        margin-top: 10%;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -137,6 +135,7 @@ footer {
     footer {
         text-align: center;
         margin-top: 2%;
+        margin-bottom: 2%;
     }
     
     #back {
